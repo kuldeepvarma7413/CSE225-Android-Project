@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    bottom bar items-->
+    <item
+        android:id="@+id/home_btn"
+        android:icon="@drawable/home_icon"
+        android:title="Home" />
+    <item
+        android:id="@+id/resources_btn"
+        android:icon="@drawable/resources_icon"
+        android:title="Resources" />
+    <item
+        android:id="@+id/profile_btn"
+        android:icon="@drawable/profile_icon"
+        android:title="Profile" />
+</menu>

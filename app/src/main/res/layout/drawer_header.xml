@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="220dp"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/darkorange"
+    android:orientation="vertical"
+    android:layout_weight="3.7"
+    android:gravity="center|top">
+    <!--        profile photo-->
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/profile_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@raw/demo_profile_photo"
+        app:civ_border_color="#FFFFFF"/>
+    <!--        username-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/username"
+        android:textColor="@color/white"/>
+    <!--        fullname-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/full_name"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+</LinearLayout>

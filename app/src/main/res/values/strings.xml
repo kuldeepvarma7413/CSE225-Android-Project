@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StudySync</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="username">"&#64;kuldeepuser"</string>
+    <string name="username1">"kuldeepuser"</string>
+    <string name="full_name">Kul Deep Varma</string>
+    <string name="email">kuldeepvarma7413@gmail.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="drawer_open">Drawer opened</string>
+    <string name="drawer_close">Drawer closed</string>
+</resources>

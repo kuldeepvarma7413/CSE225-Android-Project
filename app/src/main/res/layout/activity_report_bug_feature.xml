@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="screens.Report_Bug_Feature"
+    android:gravity="center"
+    android:background="@color/white"
+    android:paddingHorizontal="20dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <RadioButton
+            android:id="@+id/bug_ratio_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bug"
+            android:layout_weight="1"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/feature_ratio_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Feature"
+            android:layout_weight="1"
+            android:checked="false" />
+    </RadioGroup>
+
+<!--    Details editbox-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Details" />
+    <EditText
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/lightGray"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp"
+        android:hint="Explain your thought..."
+        android:gravity="start"
+        android:textSize="13dp"/>
+
+<!--    Name editbox-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/lightGray"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp"
+        android:hint="Your name"
+        android:gravity="start"
+        android:textSize="13dp"/>
+
+<!--    submit button-->
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingHorizontal="50dp"
+        android:text="Submit"
+        android:background="@drawable/button_background" />
+
+
+</LinearLayout>
